@@ -6,10 +6,10 @@ class Solution {
             int mid = left + (right - left) / 2;
             
             if (nums[mid] > nums[right]) {
-                // Minimum is in the right half
+               
                 left = mid + 1;
             } else {
-                // Minimum is in the left half or at the mid position
+               
                 right = mid;
             }
         }

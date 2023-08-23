@@ -1,7 +1,7 @@
 class Solution {
     public ListNode insertGreatestCommonDivisors(ListNode head) {
         if (head == null || head.next == null) {
-            return head;  // If the list is empty or has only one node, return as is
+            return head; 
         }
         
         ListNode current = head;
